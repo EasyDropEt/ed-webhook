@@ -19,13 +19,7 @@ def get_config() -> Config:
             "user": _get_env_variable("POSTGRES_USER"),
             "password": _get_env_variable("POSTGRES_PASSWORD"),
             "host": _get_env_variable("POSTGRES_HOST"),
-        },
-        "rabbitmq": {
-            "url": _get_env_variable("RABBITMQ_URL"),
-            "queue": _get_env_variable("RABBITMQ_QUEUE"),
-        },
-        "core_api": _get_env_variable("CORE_API"),
-        "google_maps_api": _get_env_variable("GOOGLE_MAPS_API"),
+        }
     }
 
 

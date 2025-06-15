@@ -4,18 +4,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="ed_optimization_service",
+    name="ed_webhook_service",
     author="Fikernew Birhanu",
     author_email="fikernew.birhanu.waju@gmail.com",
     description="EasyDrop auth model Package",
-    keywords="ed_optimization, pypi, package",
+    keywords="ed_webhook, pypi, package",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ffekirnew/ed-optimization",
+    url="https://github.com/ffekirnew/ed-webhook",
     project_urls={
-        "Documentation": "https://github.com/easydropet/ed-optimization",
-        "Bug Reports": "https://github.com/easydropet/ed-optimization/issues",
-        "Source Code": "https://github.com/easydropet/ed-optimization",
+        "Documentation": "https://github.com/easydropet/ed-webhook",
+        "Bug Reports": "https://github.com/easydropet/ed-webhook/issues",
+        "Source Code": "https://github.com/easydropet/ed-webhook",
         # 'Funding': '',
         # 'Say Thanks!': '',
     },
